@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    background-color: #f7f7f7;
+}
+
+header {
+    /*margin-left: 10%;*/
+    /*margin-right: 10%;*/
+    height: 400px;
+    background-image: url("../Images/coffee-bgnd.jpeg");
+    background-position: center;
+}
+
+h1 {
+    font-size: 100px;
+    margin: 0;
+    text-align: center;
+    padding-top: 130px;
+    font-family: 'Covered By Your Grace', cursive;
+    color: rgba(3, 150, 100, 0.75);
+}
+
+ul {
+
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    width: 50%;
+    list-style: none;
+    margin: 0px;
+    border-bottom: 5px solid #e4bb97;
+    padding-bottom: 30px;
+}
+
+h2 {
+
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    text-transform: uppercase;
+    background-color: #aa8eb5;
+    text-align: center;
+    width: 99%;
+}
+
+p {
+    color: #444444;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 0 24px;
+    text-align: justify;
+    text-indent: 32px;
+    line-height: 1.6;
+}
+
+a:link {
+    color: #214e34;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 24px;
+    letter-spacing: 2px;
+    /*border-bottom: 1px solid #e4bb97;*/
+}
+
+a:visited {
+    color: darkblue;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: green;
+}
